@@ -1,0 +1,510 @@
+/* Themify Customize Styling */
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo img {		width: 75px;
+	height: 75px; 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {		width: 75px; 
+}
+#site-logo {		position:absolute;
+
+	top: 10%;
+	bottom: 0px; 
+}
+#footerwrap {	
+	background-color: #000000; 
+}
+
+/* Themify Custom CSS */
+/* GENERAL BACKGROUND COLOR
+Changes the contact button background cover on main nav header menu
+Changes contact form button background
+Changes posts circle color background color*/
+.header-horizontal #headerwrap #main-nav .highlight-link a:hover,
+.header-horizontal #main-nav .highlight-link.current_page_item > a,
+.header-horizontal #main-nav .highlight-link.current-menu-item > a,
+.loops-wrapper.list-post .post-date,
+.single .post-content .post-date,
+.module-buttons a.yellow,
+.module-contact button {
+         background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* GENERAL BORDER COLOR
+Changes highlight-link border on header menu
+Changes button borders that aren't customized*/
+.header-horizontal #main-nav .highlight-link > 
+a,
+.more-link,
+.module-buttons a.yellow,
+.module-buttons.outline a.yellow,
+.module-contact input[type=reset],
+.module-contact input[type=submit],
+.module-contact button {
+        border-color: #006EFF;
+}
+
+
+/*Sticky nav text color */
+#main-nav .current_page_item>a, #main-nav .current-menu-item>a {
+color:white;
+}
+
+
+
+
+
+/* Before hover */
+/* HEADER MENU LINK BOX SHADOOW
+Changes the horizontal bar on header menu*/
+.header-horizontal #main-nav > li > a,
+.header-horizontal #main-nav > .current_page_item > a,
+.header-horizontal #main-nav > .current-menu-item > a{
+        box-shadow: none;
+font-size:1.2rem;
+    
+}
+
+
+/* HEADER MENU LINK BOX SHADOOW
+Changes the horizontal bar on header menu*/
+.header-horizontal #main-nav > li > a:hover,
+.header-horizontal #main-nav > .current_page_item > a:hover,
+.header-horizontal #main-nav > .current-menu-item > a:hover {
+        box-shadow: inset 0 2px 0 0 #006EFF ;
+        color: #006EFF;
+}
+
+
+
+
+
+
+/* GENERAL TEXT COLOR
+Changes link colors on the website
+Changes fancy header sub headline
+Changes blog date and categories and meta labels
+Changes >> << arrows for next blog post
+Changes hover color for main nav menu
+Changes current page main menu color*/
+a,
+h1 i,
+h1 em,
+.module-fancy-heading h1 .sub-head,
+.post-nav .arrow,
+h2 i,
+h2 em,
+.module-fancy-heading h2 .sub-head,
+#main-nav a:hover,
+#main-nav .current_page_item > a,
+#main-nav .current-menu-item > a,
+.post-date,
+.post-meta a {
+        color: #ffffff;
+}
+
+/* HOVER LINK COLOR
+Changes arrow and blog post next hover
+Changes link color in body when hover
+Changes footer links when hover
+Changes color for blog post titles when hover */
+a:hover,
+#footer a:hover,
+.post-nav a:hover > span,
+.post-nav .arrow:hover,
+.post-title a:hover,
+.footer-block .back-top .arrow-up:hover a,
+.footer-horizontal-left .back-top .arrow-up:hover a,
+.footer-horizontal-right .back-top .arrow-up:hover a,
+.footer-left-col .back-top .arrow-up:hover a,
+.footer-right-col .back-top .arrow-up:hover a,
+.module-buttons .builder_button.yellow:hover,
+.mobile_menu_active #headerwrap #main-nav .current_page_item > a,
+.mobile_menu_active #headerwrap #main-nav .current-menu-item > a,
+.mobile_menu_active.transparent-header #headerwrap #main-nav li a:hover {
+        color: #006EFF;
+}
+
+/* POST AND CONTACT FORM HOVER BUTTON COLOR */
+input[type=reset]:hover,
+input[type=submit]:hover,
+button:hover {
+	background-color: #006EFF;
+}
+
+/* CONTACT FORM BUTTON BACKGROUND COLOR
+This is to change the background color
+for your contact form button. If you want
+a hover color to change. Otherwise delete this section */
+.module-buttons a.yellow,
+.module-contact button {
+         background-color: #006EFF;
+}
+
+
+/* MORE BUTTON CUSTOMIZATION
+Contact form font color
+Post button background color
+Does not change the contact form button color */
+input[type=reset], input[type=submit], button {
+        border-radius: 0;
+        color: #fff;
+        background-color: #006EFF;
+}
+
+
+/* CUSTOM CSS FOR FORMATING PURPOSES */
+
+.footer-block #footerwrap .back-top a:before {
+    font-size: 40px;
+}
+
+
+.footer-block #footerwrap .back-top {
+        order: inherit;
+        margin-bottom: 10px;
+}
+
+
+.footer-block #footerwrap .back-top .arrow-up a {
+  width:50px;
+  height: 50px;
+}
+
+#footerwrap {
+        padding-top: 20px;
+}
+
+.header-horizontal #headerwrap { 
+background-color: rgba(0,0,0,.7); 
+}
+
+.maketable .fork-icon,
+.module-fancy-heading .maketable .fork-icon {
+display: none;
+}
+
+input[type=reset], input[type=submit], button {
+	border-radius: 0;
+}
+
+.header-horizontal #main-nav .highlight-link > a {
+  border-radius: 0;
+}
+
+
+.footer-nav a {
+  margin: 0 1em .8em 1em;
+}
+
+#footer .social-widget {
+    padding: 10px 0;
+}
+
+
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/FuturaPTLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 300;
+    src:url("/fonts/FuturaPTLightOblique.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    src:url("/fonts/FuturaPTBook.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 400;
+    src:url("/fonts/FuturaPTBookOblique.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    src:url("/fonts/FuturaPTMedium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 500;
+    src:url("/fonts/FuturaPTMediumOblique.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    src:url("/fonts/FuturaPTBold.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 700;
+    src:url("/fonts/FuturaPTBoldOblique.otf") format("opentype");
+}
+
+/* Europa */
+@font-face {
+    font-family: "Europa";
+    font-style: normal;
+    font-weight: 300;
+    src:url("/fonts/Europa-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Europa";
+    font-style: italic;
+    font-weight: 300;
+    src:url("/fonts/Europa-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Europa";
+    font-style: normal;
+    font-weight: 700;
+    src:url("/fonts/Europa-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Europa";
+    font-style: italic;
+    font-weight: 700;
+    src:url("/fonts/Europa-BoldItalic.otf") format("opentype");
+}
+
+
+body {
+    background-color: black;
+    font: 300 12pt/1.5 Europa, "Source Sans Pro", source-sans-pro, san-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    font-size: 12pt;
+    line-height: 1.5;
+    font-family: Europa, "Source Sans Pro", source-sans-pro, san-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Futura PT", "FuturaPT", "Futura PT Book", "FuturaPTBook", "Century Gothic", san-serif;
+    font-weight: 700;
+
+}
+
+article:hover {
+box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15) !important;
+transform: translateY(-5px);
+}
+.builder-posts-wrap post {
+transition: transform 0.3s;
+}
+
+.post-image a img {
+    transition: opacity 0.3s;
+}
+.post-image a img:hover, post-image a:focus, .post-image a:active {
+    opacity:0.7;
+}
+
+.post-title a {
+
+color:#ffffff;
+}
+
+.social-links .icon-large img {
+max-width:90px;
+max-height:90px;
+}
+.builder_row_cover {
+    backface-visibility: hidden;
+}
+
+
+
+
+
+
+.themify_builder_row.fullheight .row_inner>.tb-column.col-full,
+ .themify_builder_row.fullheight .row_inner>.tb-column {
+min-height:65vh;
+}
+
+a.tf_popup {
+border:none !important;
+background-color:#ffffff !important;
+box-shadow:none !important;
+}
+
+a.tf_popup:hover {
+color:#006EFF !important;
+}
+
+
+
+#footer .social-links li {
+    margin: 10px 5px 10px 5px;
+}
+
+#text-24-3-0-0 h1 {
+font-weight:300;
+}
+
+
+
+
+#main-nav li {
+font-family: "Futura PT";
+    font-weight: 500;
+    padding: 0 25px;
+} 
+
+/*.fullcover-bg {
+
+	height: 38vh;    
+} */
+
+
+.fullcover-bg {
+	width: 100%;
+	height: 60vh;    
+	position: fixed;
+	top: 0;
+	left: 0;
+
+
+
+
+
+}
+.themify_builder_active .fullcover-bg {
+	position: static;
+}
+
+
+
+.bg-icon {	
+ width: 100%;
+ height: 38vh;    
+
+}
+
+
+
+
+
+
+
+/*.header-horizontal #headerwrap {
+    background-color: transparent;
+}*/
+
+.themify_builder .module_row_24-0.module_row {
+     background-size:75% !important;
+}
+
+.module-image .image-wrap img {
+opacity:0.8;
+}
+
+#post-154:hover {
+box-shadow: none !important;
+transform:none;
+}
+
+
+.more-link {
+border-color:#ffffff;
+}
+
+
+
+
+
+
+p { color:#000000;
+}
+
+
+.about-black p {
+color:#ffffff !important;
+}
+.about-black h1 {
+font-family:"Futura PT" !important;
+font-weight:300 !important;
+text-transform:capitalize !important;
+}
+
+.post-title a {
+color:#000000 !important;
+}
+
+.post-title a {
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    line-height: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer-block #footer {
+    background-color: black;
+}
+
+
+ 
+
+
+
+
+
+
+@media screen and (max-width: 976px) { /* Themify Customize Styling */
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo img {		width: 75px;
+	height: 75px; 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {		width: 75px; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo img {		width: 75px;
+	height: 75px; 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {		width: 75px; 
+}
+ }@media screen and (max-width: 680px) { /* Themify Customize Styling */
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo img {		width: 75px;
+	height: 75px; 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {		width: 75px; 
+}
+ }

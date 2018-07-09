@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* Futura PT */
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Futura PT Light"), local("FuturaPTLight"), url("fonts/FuturaPTLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Futura PT Light Oblique"), local("FuturaPTLightOblique"), url("fonts/FuturaPTLightOblique.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Futura PT Book"), local("FuturaPTBook"), url("fonts/FuturaPTBook.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Futura PT Book Oblique"), local("FuturaPTBookOblique"), url("fonts/FuturaPTBookOblique.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Futura PT Medium"), local("FuturaPTMedium"), url("fonts/FuturaPTMedium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 500;
+    src: local("Futura PT Medium Oblique"), local("FuturaPTMediumOblique"), url("fonts/FuturaPTMediumOblique.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Futura PT Bold"), local("FuturaPTBold"), url("fonts/FuturaPTBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura PT";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Futura PT Bold Oblique"), local("FuturaPTBoldOblique"), url("fonts/FuturaPTBoldOblique.otf") format("opentype");
+}
+
+/* Europa */
+@font-face {
+    font-family: "Europa";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Europa"), url("fonts/Europa-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Europa";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Europa")url("fonts/Europa-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Europa";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Europa"), url("fonts/Europa-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Europa";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Europa"), url("fonts/Europa-BoldItalic.otf") format("opentype");
+}
+
